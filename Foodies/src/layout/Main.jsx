@@ -2,6 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router'
 import Navbar from '../components/Navbar'
 import "../App.css"
+import Footer from '../components/Footer'
 
 
 const Main = () => {
@@ -9,7 +10,7 @@ const Main = () => {
     <div>
       <Navbar/>
       <Outlet/>
-      
+      <Footer/>
     </div>
   )
 }
