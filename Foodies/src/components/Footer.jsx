@@ -26,15 +26,15 @@ const Footer = () => {
         </nav>
         <nav>
           <header className="footer-title">Contact Us</header>
-          <a className="link link-hover">example@email.com</a>
-          <a className="link link-hover">+64 958 248 966</a>
+          <a className="link link-hover">foodi_restaurant@email.com</a>
+          <a className="link link-hover">+91 958 248 0966</a>
           <a className="link link-hover">Social media</a>
         </nav>
       </footer>
         <hr />
       <footer className="footer items-center xl:px-24 px-4 py-4 mt-2">
         <aside className="items-center grid-flow-col">
-          <p>Copyright © 2023 - All right reserved</p>
+          <p>Copyright © 2024 - All right reserved</p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
           <a>
