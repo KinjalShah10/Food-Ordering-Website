@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Inter', sans-serif;
+  background-color:#BEBCC1;
 }
 
 header, nav{
@@ -58,5 +59,5 @@ header, nav{
 .active{
   text-decoration: underline;
   text-underline-offset: 5px;
-  color: #39DB4A;
+  color: #080808;
 }
