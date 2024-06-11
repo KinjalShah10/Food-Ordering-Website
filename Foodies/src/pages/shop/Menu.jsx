@@ -83,19 +83,19 @@ const Menu = () => {
   return (
     <div>
       {/* menu banner */}
-      <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 bg-gradient-to-r from-0% from-[#FAFAFA] to-[#FCFCFC] to-100%">
+      <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 bg-gradient-to-r from-0% from-[#f7f2f225] to-[#272424] to-100%">
         <div className="py-48 flex flex-col items-center justify-center">
           {/* content */}
           <div className=" text-center px-4 space-y-7">
-            <h2 className="md:text-5xl text-4xl font-bold md:leading-snug leading-snug">
-              For the Love of Delicious <span className="text-green">Food</span>
+            <h2 className="md:text-5xl text-4xl font-bold md:leading-snug leading-snug text-black">
+              For the Love of Delicious Food
             </h2>
-            <p className="text-[#4A4A4A] text-xl md:w-4/5 mx-auto">
+            <p className="text-[#101010] text-xl md:w-4/5 mx-auto">
               Come with family & feel the joy of mouthwatering food such as
               Greek Salad, Lasagne, Butternut Pumpkin, Tokusen Wagyu, Olivas
               Rellenas and more for a moderate cost
             </p>
-            <button className="bg-green font-semibold btn text-white px-8 py-3 rounded-full">
+            <button className="font-semibold btn text-white bg-black px-8 py-3 rounded-full">
               Order Now
             </button>
           </div>
@@ -181,7 +181,7 @@ const Menu = () => {
             key={index + 1}
             onClick={() => paginate(index + 1)}
             className={`mx-1 px-3 py-1 rounded-full ${
-              currentPage === index + 1 ? "bg-green text-white" : "bg-gray-200"
+              currentPage === index + 1 ? "bg-black text-white" : "bg-gray-200"
             }`}
           >
             {index + 1}
