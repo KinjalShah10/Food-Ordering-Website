@@ -4,6 +4,7 @@ import { FaRegUser } from "react-icons/fa";
 import Modal from "./Modal";
 import { AuthContext } from "../contexts/AuthProvider";
 import Profile from "./Profile";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isSticky, setSticky] = useState(false);
@@ -38,7 +39,7 @@ const Navbar = () => {
           <summary>Menu</summary>
           <ul className="p-2">
             <li>
-              <a href="/menu">All</a>
+              <NavLink to="/menu">All</NavLink>
             </li>
             <li>
               <a>Salad</a>
